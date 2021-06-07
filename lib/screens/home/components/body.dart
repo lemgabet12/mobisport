@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'Becompany_rss_service.dart';
+import 'package:qatar2022/components/RSSDemo.dart';
 
 class Body extends StatelessWidget {
   // This widget is the root of your application.
@@ -11,7 +10,7 @@ class Body extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: BecompanyHomeScreen(),
+      home: RSSdemo(),
     );
   }
 }
