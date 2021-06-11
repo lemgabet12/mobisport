@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
 
-import 'Becompany_rss_service.dart';
-
 class Body extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'feed',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+      title: 'Welcome to Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Welcome to Flutter'),
+        ),
+        body: const Center(
+          child: Text('Hello World'),
+        ),
       ),
-      home: BecompanyHomeScreen(),
     );
   }
 }
