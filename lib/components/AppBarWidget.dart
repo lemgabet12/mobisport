@@ -6,8 +6,8 @@ Widget appBarWidget(context) {
     centerTitle: true,
     title: Image.asset(
       "assets/images/logo.png",
-      width: 120,
-      height: 50,
+      width: 300,
+      height: 80,
     ),
   );
 }

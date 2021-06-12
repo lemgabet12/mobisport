@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:qatar2022/screens/fans/fans_screen.dart';
 import 'package:qatar2022/screens/home/home_screen.dart';
-import 'package:qatar2022/screens/cart/cart_screen.dart';
 import 'package:qatar2022/screens/sign_in/sign_in_screen.dart';
+import 'package:qatar2022/screens/programme/programme_screen.dart';
+import 'package:qatar2022/screens/sccore/sccore_screen.dart';
 
 import '../constants.dart';
 import '../enums.dart';
@@ -51,35 +53,37 @@ class CustomBottomNavBar extends StatelessWidget {
               ),
               IconButton(
                 icon: SvgPicture.asset(
-                  "assets/icons/Heart Icon.svg",
-                  color: MenuState.cart == selectedMenu
-                      ? kPrimaryColor
-                      : inActiveIconColor,
-                ),
-                onPressed: () {},
-              ),
-              IconButton(
-                icon: SvgPicture.asset(
-                  "assets/icons/Heart Icon.svg",
-                  color: MenuState.cart == selectedMenu
-                      ? kPrimaryColor
-                      : inActiveIconColor,
-                ),
-                onPressed: () {},
-              ),
-              IconButton(
-                icon: SvgPicture.asset(
-                  "assets/icons/Cart Icon.svg",
-                  color: MenuState.cart == selectedMenu
+                  "assets/icons/plan.svg",
+                  color: MenuState.programme == selectedMenu
                       ? kPrimaryColor
                       : inActiveIconColor,
                 ),
                 onPressed: () =>
-                    Navigator.pushNamed(context, CartScreen.routeName),
+                    Navigator.pushNamed(context, ProgrammeScreen.routeName),
               ),
               IconButton(
                 icon: SvgPicture.asset(
-                  "assets/icons/User Icon.svg",
+                  "assets/icons/football.svg",
+                  color: MenuState.sccore == selectedMenu
+                      ? kPrimaryColor
+                      : inActiveIconColor,
+                ),
+                onPressed: () =>
+                    Navigator.pushNamed(context, SccoreScreen.routeName),
+              ),
+              IconButton(
+                icon: SvgPicture.asset(
+                  "assets/icons/fans.svg",
+                  color: MenuState.fans == selectedMenu
+                      ? kPrimaryColor
+                      : inActiveIconColor,
+                ),
+                onPressed: () =>
+                    Navigator.pushNamed(context, FansScreen.routeName),
+              ),
+              IconButton(
+                icon: SvgPicture.asset(
+                  "assets/icons/user.svg",
                   color: MenuState.profile == selectedMenu
                       ? kPrimaryColor
                       : inActiveIconColor,

@@ -9,7 +9,7 @@ import '../constants.dart';
 // For Specific category
 Future<List<Product>> fetchProducts() async {
   final response = await http.get(Uri.parse(
-      "https://f63911585638.ngrok.io/tarifEtudiant/api/products?ws_key=$ws_key&language=1&output_format=JSON&display=[id,name,id_category_default,date_add,id_default_image,price,description_short,id_category_default]&filter[id_category_default]=8"));
+      "https://f63911585638.ngrok.io/Etudiant/api/products?ws_key=$ws_key&language=1&output_format=JSON&display=[id,name,id_category_default,date_add,id_default_image,price,description_short,id_category_default]&filter[id_category_default]=8"));
   print(response.body);
   print(response.statusCode);
   if (response.statusCode == 200) {

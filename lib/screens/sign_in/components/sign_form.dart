@@ -109,8 +109,8 @@ class _SignFormState extends State<SignForm> {
         return null;
       },
       decoration: InputDecoration(
-        labelText: "Mot de passe",
-        hintText: "Entrez votre mot de passe",
+        labelText: "password",
+        hintText: "password",
         // If  you are using latest version of flutter then lable text and hint text shown like this
         // if you r using flutter less then 1.20.* then maybe this is not working properly
         floatingLabelBehavior: FloatingLabelBehavior.always,
@@ -143,7 +143,7 @@ class _SignFormState extends State<SignForm> {
       },
       decoration: InputDecoration(
         labelText: "Email",
-        hintText: "Entrez votre Email",
+        hintText: "Email",
         // If  you are using latest version of flutter then lable text and hint text shown like this
         // if you r using flutter less then 1.20.* then maybe this is not working properly
         floatingLabelBehavior: FloatingLabelBehavior.always,

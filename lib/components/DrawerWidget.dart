@@ -70,10 +70,10 @@ Widget _createDrawerHeader() {
         Positioned(
             bottom: 12.0,
             left: 16.0,
-            child: Text("Developed for learing purpose by 'TARIKUL'",
+            child: Text("Developed by '#ElGhoul'",
                 style: TextStyle(
                     color: Color(0xFF545454),
-                    fontSize: 10.0,
+                    fontSize: 15.0,
                     fontWeight: FontWeight.w500))),
       ]));
 }

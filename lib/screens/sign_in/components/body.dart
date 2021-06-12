@@ -25,7 +25,7 @@ class Body extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Connectez-vous avec votre e-mail",
+                  "connect now with your informations",
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: SizeConfig.screenHeight * 0.08),

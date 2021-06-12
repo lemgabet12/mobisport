@@ -1,4 +1,4 @@
-package com.example.tarif_etudiant
+package com.example.qatar2022
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,13 +1,13 @@
 import 'package:flutter/widgets.dart';
-import 'package:qatar2022/screens/cart/cart_screen.dart';
-import 'package:qatar2022/screens/categories_products/category_products_screen.dart';
 import 'package:qatar2022/screens/complete_profile/complete_profile_screen.dart';
-import 'package:qatar2022/screens/details/details_screen.dart';
+import 'package:qatar2022/screens/fans/fans_screen.dart';
 import 'package:qatar2022/screens/forgot_password/forgot_password_screen.dart';
 import 'package:qatar2022/screens/home/home_screen.dart';
 import 'package:qatar2022/screens/login_success/login_success_screen.dart';
 import 'package:qatar2022/screens/otp/otp_screen.dart';
 import 'package:qatar2022/screens/profile/profile_screen.dart';
+import 'package:qatar2022/screens/programme/programme_screen.dart';
+import 'package:qatar2022/screens/sccore/sccore_screen.dart';
 import 'package:qatar2022/screens/sign_in/sign_in_screen.dart';
 import 'package:qatar2022/screens/splash/splash_screen.dart';
 
@@ -24,8 +24,8 @@ final Map<String, WidgetBuilder> routes = {
   CompleteProfileScreen.routeName: (context) => CompleteProfileScreen(),
   OtpScreen.routeName: (context) => OtpScreen(),
   HomeScreen.routeName: (context) => HomeScreen(),
-  DetailsScreen.routeName: (context) => DetailsScreen(),
-  CartScreen.routeName: (context) => CartScreen(),
   ProfileScreen.routeName: (context) => ProfileScreen(),
-  CategoryProductsScreen.routeName: (context) => CategoryProductsScreen(),
+  ProgrammeScreen.routeName: (context) => ProgrammeScreen(),
+  SccoreScreen.routeName: (context) => SccoreScreen(),
+  FansScreen.routeName: (context) => FansScreen(),
 };
