@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204755675066",
+    "project_id": "qatar2022-72301",
+    "storage_bucket": "qatar2022-72301.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204755675066:android:2f20267bbc681c22685f83",
+        "android_client_info": {
+          "package_name": "com.example.Qatar2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204755675066-5jfpuplpvfiicbb5poop4sremb3eshc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM72MgV9y7uM4NSERMrveOSRNa6zQnfmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204755675066-5jfpuplpvfiicbb5poop4sremb3eshc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

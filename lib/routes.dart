@@ -7,7 +7,7 @@ import 'package:qatar2022/screens/login_success/login_success_screen.dart';
 import 'package:qatar2022/screens/otp/otp_screen.dart';
 import 'package:qatar2022/screens/profile/profile_screen.dart';
 import 'package:qatar2022/screens/programme/programme_screen.dart';
-import 'package:qatar2022/screens/sccore/sccore_screen.dart';
+import 'package:qatar2022/screens/info/info_screen.dart';
 import 'package:qatar2022/screens/sign_in/sign_in_screen.dart';
 import 'package:qatar2022/screens/splash/splash_screen.dart';
 
@@ -26,6 +26,6 @@ final Map<String, WidgetBuilder> routes = {
   HomeScreen.routeName: (context) => HomeScreen(),
   ProfileScreen.routeName: (context) => ProfileScreen(),
   ProgrammeScreen.routeName: (context) => ProgrammeScreen(),
-  SccoreScreen.routeName: (context) => SccoreScreen(),
+  InfoScreen.routeName: (context) => InfoScreen(),
   FansScreen.routeName: (context) => FansScreen(),
 };

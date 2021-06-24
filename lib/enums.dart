@@ -1,1 +1,1 @@
-enum MenuState { home, programme, sccore, fans, profile }
+enum MenuState { home, programme, info, fans, profile }

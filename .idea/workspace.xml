@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="833ebf40-dcc1-4b85-b756-42c959ddc2ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/User Icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Addison.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Angel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Deanna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Image Banner 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Image Banner 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Jason.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Judd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Leslie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Nathan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Profile Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Virgil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ps4_console_blue_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ps4_console_blue_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ps4_console_blue_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ps4_console_blue_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ps4_console_white_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ps4_console_white_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ps4_console_white_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ps4_console_white_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/shoes2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/tshirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/wireless headset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/DrawerWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/DrawerWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/coustom_bottom_nav_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/coustom_bottom_nav_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/product_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/product_category_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/socal_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/enums.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/enums.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/cart/cart_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/cart/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/cart/components/cart_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/cart/components/check_out_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/categories_products/category_products_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/categories_products/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/categories_products/components/category_full_products.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/details/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/details/components/color_dots.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/details/components/custom_app_bar.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/details/components/product_description.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/details/components/product_images.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/details/components/top_rounded_container.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/details/details_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/components/body.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/bon_plan_products.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/data/get_feed_data.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/data/save_local.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/new_product.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/pages/articles_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/pages/home_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/popular_product.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/components/special_offers.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/programme/components/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/programme/components/body.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sccore/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sccore/components/splash_content.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sccore/sccore_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/fetchProducts.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uHCNqKVjlBs77zah3YV9vWpdNn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="833ebf40-dcc1-4b85-b756-42c959ddc2ce" name="Default Changelist" comment="" />
+      <created>1624313118895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624313118895</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1624325135393">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1624325135393" />
+    <state x="496" y="110" key="AndroidProcessChooserDialog" timestamp="1624328760863">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="496" y="110" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1624328760863" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1624325151402">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624325151402" />
+  </component>
+</project>

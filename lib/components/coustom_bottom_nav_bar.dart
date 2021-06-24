@@ -4,7 +4,7 @@ import 'package:qatar2022/screens/fans/fans_screen.dart';
 import 'package:qatar2022/screens/home/home_screen.dart';
 import 'package:qatar2022/screens/sign_in/sign_in_screen.dart';
 import 'package:qatar2022/screens/programme/programme_screen.dart';
-import 'package:qatar2022/screens/sccore/sccore_screen.dart';
+import 'package:qatar2022/screens/info/info_screen.dart';
 
 import '../constants.dart';
 import '../enums.dart';
@@ -19,7 +19,7 @@ class CustomBottomNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Color inActiveIconColor = Color(0xFFB6B6B6);
+    final Color inActiveIconColor = Color(0xFFE07F7F);
     return Container(
       padding: EdgeInsets.symmetric(vertical: 14),
       decoration: BoxDecoration(
@@ -28,7 +28,7 @@ class CustomBottomNavBar extends StatelessWidget {
           BoxShadow(
             offset: Offset(0, -15),
             blurRadius: 20,
-            color: Color(0xFFDADADA).withOpacity(0.15),
+            color: Color(0xFFCF5F5F).withOpacity(0.15),
           ),
         ],
         borderRadius: BorderRadius.only(
@@ -64,12 +64,12 @@ class CustomBottomNavBar extends StatelessWidget {
               IconButton(
                 icon: SvgPicture.asset(
                   "assets/icons/football.svg",
-                  color: MenuState.sccore == selectedMenu
+                  color: MenuState.info == selectedMenu
                       ? kPrimaryColor
                       : inActiveIconColor,
                 ),
                 onPressed: () =>
-                    Navigator.pushNamed(context, SccoreScreen.routeName),
+                    Navigator.pushNamed(context, InfoScreen.routeName),
               ),
               IconButton(
                 icon: SvgPicture.asset(

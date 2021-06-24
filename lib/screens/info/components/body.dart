@@ -1,14 +1,16 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
-import 'package:qatar2022/screens/programme/components/programmedetiel.dart';
+import 'package:qatar2022/screens/info/components/detail.dart';
 
 class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF0C0B0A),
+      backgroundColor: Color(0xFFFCFAF8),
       body: ListView(
         children: <Widget>[
-          SizedBox(height: 70.0),
+          SizedBox(height: 30.0),
           Container(
               padding: EdgeInsets.only(right: 15.0),
               width: MediaQuery.of(context).size.width - 10.0,
@@ -16,16 +18,26 @@ class Body extends StatelessWidget {
               child: GridView.count(
                 crossAxisCount: 2,
                 primary: false,
-                crossAxisSpacing: 50.0,
-                mainAxisSpacing: 50.0,
+                crossAxisSpacing: 70.0,
+                mainAxisSpacing: 70.0,
                 childAspectRatio: 0.8,
                 children: <Widget>[
                   _buildCard('Hotel', 'assets/images/hotel.png', context),
                   _buildCard('Stadium', 'assets/images/stadium.png', context),
                   _buildCard('Parking', 'assets/images/parking.png', context),
+                  _buildCard(
+                      'Restorant', 'assets/images/restaurant.png', context),
+                  _buildCard('Service', 'assets/images/24-hours.png', context),
+                  _buildCard(
+                      'Training', 'assets/images/presentation.png', context),
+                  _buildCard('Park', 'assets/images/park.png', context),
+                  _buildCard(
+                      'Shopping', 'assets/images/online-shopping.png', context),
+                  _buildCard('rent', 'assets/images/rent.png', context),
+                  _buildCard('More', 'assets/images/options.png', context),
                 ],
               )),
-          SizedBox(height: 30.0)
+          SizedBox(height: 1.0)
         ],
       ),
     );
@@ -37,15 +49,15 @@ class Body extends StatelessWidget {
         child: InkWell(
             onTap: () {
               Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => ProgrammeDetiel(cookiename: name)));
+                  builder: (context) => InfoDetail(cookiename: name)));
             },
             child: Container(
                 child: Column(children: [
               Hero(
                   tag: imgPath,
                   child: Container(
-                      height: 30.0,
-                      width: 30.0,
+                      height: 200.0,
+                      width: 200.0,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage(imgPath),

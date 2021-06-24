@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:qatar2022/screens/sign_in/sign_in_screen.dart';
 
 class DrawerWidget extends StatefulWidget {
@@ -25,7 +24,6 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                       MaterialPageRoute(builder: (context) => SignInScreen()),
                     )),
             _createDrawerItem(
-                icon: FontAwesomeIcons.user,
                 text: 'Sign In',
                 onTap: () => Navigator.push(
                       context,
